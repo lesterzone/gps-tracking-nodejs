@@ -4,7 +4,7 @@
   "description": "Let you work with some GPS trackers that connects through tcp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/freshworkstudio/gps-tracking-nodejs",
   "dependencies": {
-    "node.extend": "*"
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "mongoose": "^4.0.4",
+    "node.extend": "*",
+    "sockjs": "^0.3.15"
   }
 }
