@@ -1,9 +1,9 @@
 'use strict';
 
 var gps = require('./index');
-require('./config/database');
-var Device = require('./device');
-var net = require('net');
+// require('./config/database');
+// var Device = require('./device');
+// var net = require('net');
 
 var options = {
     debug: true,
@@ -14,7 +14,7 @@ var options = {
 gps.server(options, function(device, connection) {
     console.log('connection, ', connection);
     device.on('loginRequest', function(deviceId, chunks) {
-
+        console.log('on loginRequest', deviceId);
         // Device.findOne({
         //     deviceId: deviceId
         // }, function(err, data) {
