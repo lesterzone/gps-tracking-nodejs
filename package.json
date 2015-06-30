@@ -2,8 +2,9 @@
   "name": "gps-tracking",
   "version": "1.0.5",
   "description": "Let you work with some GPS trackers that connects through tcp.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "mocha tests/"
   },
   "repository": {

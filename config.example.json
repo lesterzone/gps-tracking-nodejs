@@ -1,0 +1,17 @@
+{
+    "development": {
+        "dbUser": "some user",
+        "dbPassword": "user password",
+        "dbHost": "localhost",
+        "dbPort": "27017",
+        "dbName": "dev-db"
+    },
+
+    "production": {
+        "dbUser": "foo",
+        "dbPassword": "bar",
+        "dbHost": "localhost",
+        "dbPort": "27017",
+        "dbName": "mongoose_example"
+    }
+}
